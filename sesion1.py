@@ -36,5 +36,10 @@ print type(n)
 print type(saludo)
 print type(suma(5,5))
 
+if 5 > 4:
+    print "5 es mayor que 4"
+else:
+    print "5 no es mayor que el numero x"
+
 for i in range(1,11):
     print "hola!"
