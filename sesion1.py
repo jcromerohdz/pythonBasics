@@ -43,3 +43,12 @@ else:
 
 for i in range(1,11):
     print "hola!"
+
+#fibonacci series
+def fib(n):
+    if n < 2:
+        return n
+    else:
+        return fib(n-1) + fib(n-2)
+
+print fib(7)
