@@ -35,5 +35,6 @@ print "resultado de la funcion suma: " + str(suma(5,5))
 print type(n)
 print type(saludo)
 print type(suma(5,5))
-# for i in range(1,11):
-#     print "hola!"
+
+for i in range(1,11):
+    print "hola!"
